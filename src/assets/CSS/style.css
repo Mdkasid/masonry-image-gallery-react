@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+
+
+a{
+    font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+}
+
+.background{
+    background: linear-gradient(to right ,#3C6255,#61876E,#A6BB8D)!important;
+}
+
+.btn:hover{
+    background: linear-gradient(to right ,#3C6255,#61876E,#A6BB8D)!important;
+}
+
+.inner-img{
+    transition:transform .5s ease;
+}
+.inner-img:hover{
+transform: scale(1.03);
+cursor: pointer;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
